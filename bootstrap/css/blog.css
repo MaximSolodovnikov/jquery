@@ -164,3 +164,17 @@ h6, .h6 {
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
+
+/*---------- MY_STYLE-----------*/
+
+.news_title {
+    cursor: pointer;
+}
+
+.news_title:hover {
+    color: blue;
+}
+
+.news_content {
+    color: blue;
+}

@@ -96,12 +96,18 @@
             </ol>
           </div>
           <div class="sidebar-module">
-            <h4>Elsewhere</h4>
-            <ol class="list-unstyled">
-              <li><a href="#">GitHub</a></li>
-              <li><a href="#">Twitter</a></li>
-              <li><a href="#">Facebook</a></li>
-            </ol>
+            <h4>Last news</h4>
+            
+            <p class="news_title">News number one</p>
+            <div class="news_content">Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</div>
+            
+            <p class="news_title">News number two</p>
+            <div class="news_content">Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</div>
+            
+            <p class="news_title">News number three</p>
+            <div class="news_content">Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</div>
+            
+            
           </div>
         </div><!-- /.blog-sidebar -->
 
@@ -124,6 +130,7 @@
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>');</script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="bootstrap/js/menu.js"></script>
+    <script type="text/javascript" src="bootstrap/js/accordion.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="bootstrap/js/ie10-viewport-bug-workaround.js"></script>
   </body>
