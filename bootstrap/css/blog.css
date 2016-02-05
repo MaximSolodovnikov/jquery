@@ -178,3 +178,7 @@ h6, .h6 {
 .news_content {
     color: blue;
 }
+
+.top {
+    cursor: pointer;
+}

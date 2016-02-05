@@ -31,11 +31,17 @@
     <div class="blog-masthead">
         <div class="container">
             <nav class="blog-nav" id="menu">
+                <form class="navbar-form navbar-right">
+                    <input type="text" class="form-control" placeholder="Search...">
+                </form>
                 <span><a class="blog-nav-item active" href="#">Home</a></span>
                 <span><a class="blog-nav-item" href="#">New features</a></span>
                 <span><a class="blog-nav-item" href="#">Press</a></span>
                 <span><a class="blog-nav-item" href="#">New hires</a></span>
                 <span><a class="blog-nav-item" href="#">About</a></span>
+           
+               
+            
             </nav>
         </div>
     </div>
@@ -117,9 +123,9 @@
 
     <footer class="blog-footer">
       <p>Blog template built for <a href="http://getbootstrap.com">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-      <p>
-        <a href="#">Back to top</a>
-      </p>
+      
+      <p class="top">Back to top</p>
+      
     </footer>
 
 
@@ -131,6 +137,8 @@
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="bootstrap/js/menu.js"></script>
     <script type="text/javascript" src="bootstrap/js/accordion.js"></script>
+    <script type="text/javascript" src="bootstrap/js/top.js"></script>
+    <script type="text/javascript" src="bootstrap/js/search.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="bootstrap/js/ie10-viewport-bug-workaround.js"></script>
   </body>
